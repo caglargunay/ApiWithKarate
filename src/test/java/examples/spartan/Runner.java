@@ -1,0 +1,12 @@
+package examples.spartan;
+
+import com.intuit.karate.junit5.Karate;
+
+class Runner {
+    
+    @Karate.Test
+    Karate testUsers() {
+        return Karate.run("spartanPut").tags("@wip").relativeTo(getClass());
+    }    
+
+}
