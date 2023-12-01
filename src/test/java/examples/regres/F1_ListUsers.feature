@@ -1,6 +1,5 @@
 Feature:List Users Functionality
 
-
   Background: Url
     Given url "https://reqres.in/"
 
